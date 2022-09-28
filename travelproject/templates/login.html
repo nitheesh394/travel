@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form action="/logincred/login/" method = "post">
+    {% csrf_token %}
+    <input type="text" name="username" placeholder="Enter your username"><p></p>
+    <input type="password" name="pass" placeholder="Enter your Password"><p></p>
+    <input type="submit" name="submit"><p></p>
+
+
+</form>
+
+</body>
+</html>
